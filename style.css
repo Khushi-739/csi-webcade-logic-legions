@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000
+  }
+.image{
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('d.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 2px;
+    padding-top: 0px;
+    background-color: rgb(202, 193, 193);
+}
+  header{
+    display: inline-block;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 80px;
+    width: 100%;
+    border-color: black;
+    background-color: black;
+    color: grey;
+    box-shadow: -20px 5px 30px grey;
+    opacity: 0.95;
+    border-radius: 5px;
+  }
+  header:hover{
+    opacity: 1.0;
+  }
+  header .nav{
+    position: relative;
+    display: flex;
+    font-size: 55px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+  }
+  header .nav li{
+    text-align: right;
+    float: right;
+    color: black;
+    margin: -45px 45px;
+    list-style: none;
+    word-wrap: normal;
+  }
+  a{
+    margin: 0px 9px;
+    margin-right: 0px;
+    float: right;
+    word-spacing: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: -2px 0px 8px rgb(68, 41, 154);
+    
+  }
+  a:hover{
+    color: rgb(68, 41, 154);
+    text-decoration: none;
+  }
+.gc{
+    margin: -50px 80px;
+    max-height: 600px;
+    height: 60px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+  .butt{
+    display: inline-block;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 80px;
+    border: 3px solid #000000;
+    box-shadow: 2px  0.2px 5px rgb(40, 40, 41);
+    border-radius: 7%;
+    opacity: 0.60;
+    background-color: #fcfbfb;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-weight: normal;
+  }
+  .butt:hover{
+    opacity: 10;
+    background-color: #ffffff;
+
+  }
+  span{
+    color: #0b0b0b;
+    text-shadow: 2px 0.2px 5px rgb(31, 87, 155);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 35px;    
+    font-family: "Protest Guerrilla", sans-serif;
+    text-decoration: none;
+    font-style: bold;
+  }
+  .okk {
+    text-align: left;
+    float: left;
+    margin-left: 80px;
+    margin-top: 200px;
+    font-size: 55px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+  }
+  .okk:hover, .explore:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .okkk{
+    text-align: left;
+    float: left;
+    margin-left: 80px;
+    margin-right: 800px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(252, 252, 252);
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+  }
+  .explore{
+    text-align: left;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-size: 55px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+  }
+  .m{
+    height: 400px;
+    width: 300px;
+    margin-left: -430px;
+    margin-top: 190px;
+  }
+  .mm{
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 190px;
+  }
+  .mmm{
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 190px;
+  }
+  .mmmm{
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 190px;
+  }
+  .j{
+    text-align: left;
+    float: left;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    text-decoration: dotted;
+    text-transform: capitalize;
+  }
+  .jj{
+    text-align: left;
+    float: left;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    text-decoration: dotted;
+    text-transform: capitalize;
+  }
+  .jjj{
+    text-align: left;
+    float: left;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    text-decoration: dotted;
+    text-transform: capitalize;
+  }
+  .jjjj{
+    text-align: left;
+    float: left;
+    margin-left: 140px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    text-decoration: dotted;
+    text-transform: capitalize;
+  }
+.video{
+    height: 800px;
+    width: max-content;
+    margin-left: 60px;
+}
+.vv{
+    text-align: center;
+    float: center;
+    font-size: 55px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    text-decoration: dotted;
+    text-transform: capitalize;
+}
+.map{
+	background-color: black;
+	height: 80vh;
+	width: 216vh;
+	margin-top: 30px;
+    margin-left: 80px;
+    background-color: black;
+}
+.last{
+	color: grey;
+  font-size: 30px;
+  font-family: "Protest Guerrilla", sans-serif;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  text-shadow: 2px 0.2px 5px rgb(31, 87, 155);
+	margin-left: 920px;
+	margin-top: -200px;
+}
+p{
+	margin: 24px 0px;
+	line-height: 2;
+}

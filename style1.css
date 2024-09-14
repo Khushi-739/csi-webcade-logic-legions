@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff
+  }
+.image{
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('d.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 2px;
+    padding-top: 0px;
+    background-color: rgb(202, 193, 193);
+}
+  header{
+    display: inline-block;
+    position: absolute;
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 80px;
+    width: 100%;
+    border-color: black;
+    background-color: black;
+    color: grey;
+    box-shadow: -20px 5px 30px grey;
+    opacity: 0.95;
+    border-radius: 5px;
+  }
+  header:hover{
+    opacity: 1.0;
+  }
+  header .nav{
+    position: relative;
+    display: flex;
+    font-size: 55px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+  }
+  header .nav li{
+    text-align: right;
+    float: right;
+    color: black;
+    margin: -45px 45px;
+    list-style: none;
+    word-wrap: normal;
+  }
+  a{
+    margin: 0px 9px;
+    margin-right: 0px;
+    float: right;
+    word-spacing: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: -2px 0px 8px rgb(68, 41, 154);
+    
+  }
+  a:hover{
+    color: rgb(68, 41, 154);
+    text-decoration: none;
+  }
+  .gc{
+    margin: -50px 80px;
+    max-height: 600px;
+    height: 60px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+  }
+  .sec{
+        height: 600px;
+        width: 470px;
+        margin: -70px;
+        margin-top: 150px;
+        margin-left: 30px;
+        opacity: 2;
+        box-shadow: 0 0 20px grey;
+  }
+  .s, .sss{
+    font-size: 30px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    margin-top: -50px;
+    margin-left: 20px;
+  }
+  .s:hover{
+    color: rgb(0, 0, 0);
+  }
+  .ss{
+    height: 480px;
+    width: 400px;
+    margin-left: 30px;
+  }
+  .ssss{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+  }
+  .asec{
+    height: 600px;
+    width: 470px;
+    margin: -70px;
+    margin-top: -600px;
+    margin-left: 540px;
+    opacity: 2;
+    box-shadow: 0 0 20px grey;
+}
+.as, .asss{
+    font-size: 30px;
+    color: grey;
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    margin-top: -50px;
+    margin-left: 20px;
+    }
+    .as:hover{
+    color: rgb(0, 0, 0);
+    }
+    .ass{
+    height: 480px;
+    width: 400px;
+    margin-left: 30px;
+    }
+    .assss{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: "Protest Guerrilla", sans-serif;
+    letter-spacing: 6px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+    }
+    .aasec{
+        height: 600px;
+        width: 470px;
+        margin: -70px;
+        margin-top: -600px;
+        margin-left: 1050px;
+        opacity: 2;
+        box-shadow: 0 0 20px grey;
+    }
+    .aas, .aasss{
+        font-size: 30px;
+        color: grey;
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 6px;
+        margin-top: -50px;
+        margin-left: 20px;
+        }
+        .aas:hover{
+        color: rgb(0, 0, 0);
+        }
+        .aass{
+        height: 480px;
+        width: 400px;
+        margin-left: 30px;
+        }
+        .aassss{
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 6px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        
+        }
+        
+
+
+        .bsec{
+            height: 600px;
+            width: 470px;
+            margin: -70px;
+            margin-top: 150px;
+            margin-left: 30px;
+            opacity: 2;
+            box-shadow: 0 0 20px grey;
+      }
+      .bs, .bsss{
+        font-size: 30px;
+        color: grey;
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 6px;
+        margin-top: -50px;
+        margin-left: 20px;
+      }
+      .bs:hover{
+        color: rgb(0, 0, 0);
+      }
+      .bss{
+        height: 480px;
+        width: 400px;
+        margin-left: 30px;
+      }
+      .bssss{
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 6px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        
+      }
+      .basec{
+        height: 600px;
+        width: 470px;
+        margin: -70px;
+        margin-top: -600px;
+        margin-left: 540px;
+        opacity: 2;
+        box-shadow: 0 0 20px grey;
+    }
+    .bas, .basss{
+        font-size: 30px;
+        color: grey;
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 6px;
+        margin-top: -50px;
+        margin-left: 20px;
+        }
+        .bas:hover{
+        color: rgb(0, 0, 0);
+        }
+        .bass{
+        height: 480px;
+        width: 400px;
+        margin-left: 30px;
+        }
+        .bassss{
+        font-size: 13px;
+        color: rgb(0, 0, 0);
+        font-family: "Protest Guerrilla", sans-serif;
+        letter-spacing: 6px;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+        
+        }
+        .baasec{
+            height: 600px;
+            width: 470px;
+            margin: -70px;
+            margin-top: -600px;
+            margin-left: 1050px;
+            opacity: 2;
+            box-shadow: 0 0 20px grey;
+        }
+        .baas, .baasss{
+            font-size: 30px;
+            color: grey;
+            font-family: "Protest Guerrilla", sans-serif;
+            letter-spacing: 6px;
+            margin-top: -50px;
+            margin-left: 20px;
+            }
+            .baas:hover{
+            color: rgb(0, 0, 0);
+            }
+            .baass{
+            height: 480px;
+            width: 400px;
+            margin-left: 30px;
+            }
+            .baassss{
+            font-size: 13px;
+            color: rgb(0, 0, 0);
+            font-family: "Protest Guerrilla", sans-serif;
+            letter-spacing: 6px;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: bold;
+            
+            }
+            
